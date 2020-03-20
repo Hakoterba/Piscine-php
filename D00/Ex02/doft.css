@@ -1,0 +1,115 @@
+.nav {
+    background-color: #909090;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 1400px;
+    height: 130px;
+}
+
+body {
+    background: rgb(85, 85, 85);
+}
+
+.reload {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 960px; 
+    margin-top: 10px; 
+}
+
+.deco {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-left: 960px;
+    margin-top: 100px; 
+}
+
+.loupe {
+    position: absolute;
+    margin-left: 732px;
+    padding-top: 15px;
+    height: 140px;
+    width: 225px;
+}
+
+#corps {
+    margin: auto;
+    width: 1360px;
+    position: relative;
+    padding: 20px;
+    z-index: 1;
+}
+
+#left {
+    background: #909090;
+    border-radius: 10px;
+    width: 120px;
+    float: left;
+    height: 450px;
+    box-shadow: 10px 10px 10px;
+    text-align: center;
+}
+
+#left img {
+    height: 70px;
+    display: inline-block;    
+    margin: 10px 10px 0 10px;
+}
+
+#center {
+    background-color: #909090;
+    display: inline-block;
+    margin: 0 30px 0 30px;
+    border-radius: 10px;
+    width: 1050px;
+    height: 600px;
+    box-shadow: 10px 10px 10px;
+}
+
+#center img {
+    margin: 10px;
+}
+
+#right {
+    background-color: #909090;
+    border-radius: 10px;
+    width: 130px;
+    float: right;
+    height: 425px;
+    box-shadow: 10px 10px 10px;
+    text-align: center;
+}
+
+#right img {
+    margin: auto;
+    height: 80px;
+    display: inline-block;
+}
+
+.dial {
+    border-radius: 10px;
+    text-align: left;
+    width: 500;
+    z-index: 2;
+    position: absolute;
+    padding: 10px 0 0 10px;
+    height: 150px;
+    background-color: #88FF89;
+    box-shadow: 10px 10px 10px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.dial .ordi {
+    text-shadow:  3px 3px 3px red;
+}
+
+.dial p {
+    margin: auto;
+}

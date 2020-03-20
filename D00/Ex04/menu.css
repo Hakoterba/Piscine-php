@@ -1,0 +1,59 @@
+nav {
+    background: skyblue;
+    border: 1px skyblue solid;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.title {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+#ingredients {
+    background: skyblue;
+    font-size: 50px;
+    border: skyblue 1px solid;
+    border-radius: 10px;
+}
+
+#ingredients li {
+    margin: 20px;
+}
+
+#ingredients a:hover {
+    font-size: 55px;
+    color: green;
+}
+
+#menu-deroulant, #menu-deroulant ul {
+    list-style: none;
+}
+
+#menu-deroulant {
+    text-align: center;
+}
+
+#menu-deroulant li {
+    display: inline-block;
+}
+
+#menu-deroulant ul li {
+    display: inherit;
+}
+
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+	color:#000;
+}
+
+#menu-deroulant ul {
+    position: absolute;
+    left: -999em;
+    text-align: left;
+}
+
+#menu-deroulant li:hover ul {
+    left: auto;
+}
